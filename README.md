@@ -3,7 +3,6 @@
 
 ## What is this?
 Slack bot for color environemnt assignment by JIRA tickets.
-![Alt text](screenshots/sample.png)
 
 ## How to use ?
 
@@ -35,6 +34,36 @@ Slack bot for color environemnt assignment by JIRA tickets.
     ```
 7. Invite the bot to one of the channels and start communicate with it.
 
+## Communicating with color-bot
+Used with simple wildcard regex:
+Mention the bot (e.g. `@color-bot`) and then type one of the following:
+- assigning a new color with jira ticket:
+```bash
+use (.*) ticket (.*) 
+```
+```bash
+color (.*) ticket (.*)
+```
+```bash
+use (.*) jira (.*)
+```
+```bash
+color (.*) jira (.*)
+```  
+
+![Alt text](screenshots/sample.png)  
+<br/>
+<br/>
+- releasing color env (must be made by the owner of the first assignment):
+```bash
+release (.*)
+```
+```bash
+free (.*)
+```
+```bash
+done (.*)
+```
 
 ## Using Docker
 If you wish to use docker, simply run the following commands from within the repo folder:

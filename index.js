@@ -143,7 +143,7 @@ controller.hears(['use (.*) ticket (.*)', 'color (.*) ticket (.*)', 'use (.*) ji
 
                 };
                 controller.storage.users.save(colorData);
-                bot.reply(message, 'Thank you <@' + message.user + '>, ' + 'You have bee assigned for `' + color.toUpperCase() + '` with the ticket <' + JIRA_URL + ticket + '|' + ticket + '> ');
+                bot.reply(message, 'Thank you <@' + message.user + '>, ' + 'You have been assigned for `' + color.toUpperCase() + '` with the ticket <' + JIRA_URL + ticket + '|' + ticket + '> ');
             } else {
                 bot.reply(message, 'Sorry <@' + message.user + '>, but `' + color.toUpperCase() + '` is currently being used by <@' + _color.name.slack_user_id + '>  Ticket:' +
                     '<' + JIRA_URL + _color.name.ticket_num + '|' + _color.name.ticket_num + '>')

@@ -74,7 +74,7 @@ If you wish to use docker, simply run the following commands from within the rep
     ```
 2. Run
     ```bash
-    docker run -v PATH-TO-REPO-FOLDER/db_slack_bot_ci:/db_slack_bot_ci color-base
+    docker run -v PATH-TO-REPO-FOLDER/db_slack_bot_ci:/db_slack_bot_ci color-bot
     ```
 
 ## TODO LIST

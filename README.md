@@ -78,6 +78,7 @@ If you wish to use docker, simply run the following commands from within the rep
     ```
 
 ## TODO LIST
+
 - use mongo instead of volume filesystem
 - cron jobs for JIRA to check every day if holding person is still working on that ticket by private convo from bot to user
 - cron jobs to check every other min status of the holding JIRA tickets and automatically free relevant color envs if JIRA ticket status is DONE/FINISHED/RESOLVED etc..

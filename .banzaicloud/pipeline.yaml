@@ -1,0 +1,8 @@
+cluster:
+  name: my-cluster
+
+pipeline:
+  build:
+    image: golang
+    commands:
+      - echo hello
